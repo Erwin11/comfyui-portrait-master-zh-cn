@@ -62,7 +62,7 @@ def get_prompt(json_data, template_name):
         print(f"An error occurred: {str(e)}")
 
 
-class PortraitMaster_中文版:
+class PortraitMaster_zh-cn:
 
     def __init__(self):
         pass
@@ -502,9 +502,9 @@ class PortraitMaster_中文版:
 
 
 NODE_CLASS_MAPPINGS = {
-    "PortraitMaster_中文版": PortraitMaster_中文版
+    "PortraitMaster_zh-cn": PortraitMaster_zh-cn
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "PortraitMaster_中文版": "📸 肖像大师_中文版_2.2"
+    "PortraitMaster_zh-cn": "📸 肖像大师_简体中文_2.2"
 }
